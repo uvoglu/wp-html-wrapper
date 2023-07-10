@@ -1,12 +1,12 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "create-block/html-wrapper",
+  "name": "uvoglu/html-wrapper",
   "version": "0.1.0",
   "title": "Html Wrapper",
   "category": "widgets",
   "icon": "smiley",
-  "description": "Example block scaffolded with Create Block tool.",
+  "description": "A block that allows to define raw html structures that can contain child blocks.",
   "supports": {
     "html": false
   },

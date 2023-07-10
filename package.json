@@ -1,7 +1,7 @@
 {
 	"name": "html-wrapper",
 	"version": "0.1.0",
-	"description": "Example block scaffolded with Create Block tool.",
+	"description": "A block that allows to define raw html structures that can contain child blocks.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",

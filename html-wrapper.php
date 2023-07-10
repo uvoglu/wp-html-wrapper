@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Html Wrapper
- * Description:       Example block scaffolded with Create Block tool.
+ * Description:       A block that allows to define raw html structures that can contain child blocks.
  * Requires at least: 6.1
  * Requires PHP:      7.0
  * Version:           0.1.0
@@ -10,7 +10,7 @@
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       html-wrapper
  *
- * @package           create-block
+ * @package           uvoglu
  */
 
 /**
@@ -20,7 +20,7 @@
  *
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
-function create_block_html_wrapper_block_init() {
+function uvoglu_html_wrapper_block_init() {
 	register_block_type( __DIR__ . '/build' );
 }
-add_action( 'init', 'create_block_html_wrapper_block_init' );
+add_action( 'init', 'uvoglu_html_wrapper_block_init' );

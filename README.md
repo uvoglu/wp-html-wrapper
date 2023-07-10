@@ -1,2 +1,3 @@
-# wp-html-wrapper
-A Gutenberg block to create raw html contents which can contain inner blocks
+# HTML Wrapper Block
+
+A WordPress Gutenberg block that allows to define raw html structures that can contain child blocks.
